@@ -6,7 +6,8 @@
     --cinza-primario: #C0C0C0;
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
-    --botao-azul-efeito: #86b7ee;
+    --borda-azul-efeito: #86b7ee;
+    --botao-efeito: #102338;
 
     --fonte-principal: "Inter", sans-serif;
 }
@@ -63,9 +64,9 @@ body {
 }
 
 .container__botao:hover {
-    border: 1px solid var(--botao-azul-efeito);
+    border: 1px solid var(--borda-azul-efeito);
     color: var(--branco-primario);
-    background-color: var(--cor-de-fundo);
+    background-color: var(--botao-efeito);
 }
 
 .botao_vazado {
