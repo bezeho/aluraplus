@@ -64,7 +64,8 @@ body {
 
 .container__botao:hover {
     border: 1px solid var(--botao-azul-efeito);
-    color: var(--branco-primario)
+    color: var(--branco-primario);
+    background-color: var(--cor-de-fundo);
 }
 
 .botao_vazado {
